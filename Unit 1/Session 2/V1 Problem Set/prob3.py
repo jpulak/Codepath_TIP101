@@ -1,12 +1,11 @@
-#Problem 1: Print List
-'''Write a function print_list() that takes in a list lst as a parameter and prints out each item in the list.
+#Problem 3: Return Doubled List
+'''Modify the function doubled() so that instead of printing the items, it returns a new list of the doubled numbers.
 
-def print_list(lst):
-    pass
-Example Input: lst = ["squirtle", "gengar", "charizard", "pikachu"]
+Example Usage:
+
+lst = [1,2,3]
+new_lst = doubled(lst)
+print(new_lst)
 Example Output:
 
-squirtle
-gengar
-charizard
-pikachu'''
+[2, 4, 6]'''

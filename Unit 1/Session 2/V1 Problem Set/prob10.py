@@ -1,12 +1,24 @@
-#Problem 1: Print List
-'''Write a function print_list() that takes in a list lst as a parameter and prints out each item in the list.
+#Problem 10: FizzBuzz
+'''Write a function fizzbuzz() that takes in an integer n as a parameter and prints the numbers from 1 to n.
+For multiples of 3, print "Fizz" instead of the number.
+For multiples of 5, print "Buzz" instead of the number.
 
-def print_list(lst):
+def fizzbuzz(n):
     pass
-Example Input: lst = ["squirtle", "gengar", "charizard", "pikachu"]
+Example Usage: fizzbuzz(13)
+
 Example Output:
 
-squirtle
-gengar
-charizard
-pikachu'''
+1
+2
+Fizz
+4
+Buzz
+Fizz
+7
+8
+Fizz
+Buzz
+11
+Fizz
+13'''

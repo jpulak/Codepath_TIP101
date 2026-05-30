@@ -1,12 +1,17 @@
-#Problem 1: Print List
-'''Write a function print_list() that takes in a list lst as a parameter and prints out each item in the list.
+#Problem 8: Multiples of Five
+'''Write a function multiples_of_five() that prints out multiples of 5 between 1 and 100 (inclusive).
 
-def print_list(lst):
+def multiples_of_five():
     pass
-Example Input: lst = ["squirtle", "gengar", "charizard", "pikachu"]
 Example Output:
 
-squirtle
-gengar
-charizard
-pikachu'''
+5
+10
+15
+20
+25
+....
+90
+95
+100
+'''

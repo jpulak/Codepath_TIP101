@@ -1,12 +1,12 @@
-#Problem 1: Print List
-'''Write a function print_list() that takes in a list lst as a parameter and prints out each item in the list.
+#Problem 2: Print Doubled List Items
+'''Write a function doubled() that takes in a list of integers lst 
+as a parameter and prints each item in the list multiplied by two.
 
-def print_list(lst):
+def doubled(lst):
     pass
-Example Input: lst = ["squirtle", "gengar", "charizard", "pikachu"]
+Example Input: lst = [1,2,3]
 Example Output:
 
-squirtle
-gengar
-charizard
-pikachu'''
+2
+4
+6'''

@@ -1,12 +1,11 @@
-#Problem 1: Print List
-'''Write a function print_list() that takes in a list lst as a parameter and prints out each item in the list.
+#Problem 6: Below Threshold
+'''Write a function count_less_than() that takes in a list of integers numbers and an integer threshold as parameters and returns the number of items in numbers that are less than threshold.
 
-def print_list(lst):
+def count_less_than(numbers, threshold):
     pass
-Example Input: lst = ["squirtle", "gengar", "charizard", "pikachu"]
-Example Output:
+Example Usage:
 
-squirtle
-gengar
-charizard
-pikachu'''
+numbers = [12,8,2,4,4,10]
+counter = count_less_than(numbers,5)
+print(counter)
+Example Output: 3'''

@@ -1,12 +1,14 @@
-#Problem 1: Print List
-'''Write a function print_list() that takes in a list lst as a parameter and prints out each item in the list.
+#Problem 4: Flip Signs
+'''Write a function flip_sign() that takes in a list of integers lst as a parameter and returns a new list where each number in the original list has been multiplied by -1.
 
-def print_list(lst):
+def flip_sign(lst):
     pass
-Example Input: lst = ["squirtle", "gengar", "charizard", "pikachu"]
+Example Usage:
+
+lst = [1,-2,-3,4]
+flipped_lst = flip_sign(lst)
+print(flipped_lst)
 Example Output:
 
-squirtle
-gengar
-charizard
-pikachu'''
+[-1, 2, 3, -4]
+'''

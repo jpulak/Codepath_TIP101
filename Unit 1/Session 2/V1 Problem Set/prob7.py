@@ -1,12 +1,13 @@
-#Problem 1: Print List
-'''Write a function print_list() that takes in a list lst as a parameter and prints out each item in the list.
+#Problem 7: Evens List
+'''Write a function get_evens() that takes in a list of integers lst as a parameter and returns a list of all even numbers in the list.
 
-def print_list(lst):
+def get_evens(lst):
     pass
-Example Input: lst = ["squirtle", "gengar", "charizard", "pikachu"]
+Example Usage:
+
+lst = [1,2,3,4]
+evens_lst = get_evens(lst)
+print(evens_lst)
 Example Output:
 
-squirtle
-gengar
-charizard
-pikachu'''
+[2, 4]'''

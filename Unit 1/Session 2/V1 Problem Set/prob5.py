@@ -1,12 +1,11 @@
-#Problem 1: Print List
-'''Write a function print_list() that takes in a list lst as a parameter and prints out each item in the list.
+#Problem 5: Max Difference
+'''Write a function max_difference() that takes in a list of integers lst and returns the difference between the smallest and largest value in the list.
 
-def print_list(lst):
+def max_difference(lst):
     pass
-Example Input: lst = ["squirtle", "gengar", "charizard", "pikachu"]
-Example Output:
+Example Usage:
 
-squirtle
-gengar
-charizard
-pikachu'''
+lst = [5,22,8,10,2]
+max_diff = max_difference(lst)
+print(max_diff)
+Example Output: 20'''

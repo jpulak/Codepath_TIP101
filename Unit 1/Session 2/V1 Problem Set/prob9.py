@@ -1,12 +1,13 @@
-#Problem 1: Print List
-'''Write a function print_list() that takes in a list lst as a parameter and prints out each item in the list.
+#Problem 9: Divisors
+'''Write a function find_divisors() that takes in an integer n as a parameter that returns a list of all divisors of n.
 
-def print_list(lst):
+def find_divisors(n):
     pass
-Example Input: lst = ["squirtle", "gengar", "charizard", "pikachu"]
+Example Usage:
+
+lst = find_divisors(6)
+print(lst)
 Example Output:
 
-squirtle
-gengar
-charizard
-pikachu'''
+[1, 2, 3, 6]
+'''
