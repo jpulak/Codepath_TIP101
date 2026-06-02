@@ -4,3 +4,8 @@
 a. print("Hello world!")
 b. def hello_world():
 c. hello_world()'''
+
+def hello_world():
+    print("Hello World!")
+
+hello_world()
