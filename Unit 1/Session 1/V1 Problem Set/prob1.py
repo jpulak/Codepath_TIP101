@@ -6,6 +6,6 @@ b. def hello_world():
 c. hello_world()'''
 
 def hello_world():
-    print("Hello World!")
+    print("Hello world! ")
 
 hello_world()

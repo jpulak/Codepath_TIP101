@@ -8,3 +8,9 @@ def todays_mood():
 todays_mood()
 
 Example Output: Today's mood: 🥱'''
+
+def todays_mood():
+    mood = "🥱"
+    print("Today's mood: " + mood)
+
+todays_mood()

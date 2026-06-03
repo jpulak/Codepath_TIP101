@@ -4,3 +4,8 @@
 def print_menu(menu):
     print("Lunch today is: " + menu)
 Example Output: Lunch today is: 🍕'''
+
+def print_menu(menu):
+    print("Lunch today is: " + menu)
+
+print_menu("🍕")

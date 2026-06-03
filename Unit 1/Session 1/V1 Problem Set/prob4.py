@@ -9,3 +9,10 @@ Note: Do not use any mathematical operators such as +, -, *, or / when solving t
 
 Example Input: 20 and 8
 Example Output: 56'''
+
+def sum(a, b):
+    return a + b
+
+res= sum(13,27)
+
+print(sum(res,res))
