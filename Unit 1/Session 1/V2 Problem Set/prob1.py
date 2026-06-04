@@ -7,3 +7,8 @@ Example Input: Michael
 Example Output: Hello Michael
 
 Note: pass is a keyword that is used as a placeholder for future code'''
+
+def greet_user(name):
+    print("Hello "+name)
+
+greet_user("Michael")

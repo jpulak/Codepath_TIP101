@@ -7,3 +7,12 @@ Example Usage: sum = sum_positive_range(6)
 Example Result: sum = 21
 
 '''
+
+def sum_positive_range(stop):
+    total=0
+    for i in range(1,stop+1):
+        total += i
+    return total
+
+n= int(input())
+print(sum_positive_range(n))
