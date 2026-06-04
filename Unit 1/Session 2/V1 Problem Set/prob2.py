@@ -1,6 +1,8 @@
 #Problem 2: Print Doubled List Items
-'''Write a function doubled() that takes in a list of integers lst 
-as a parameter and prints each item in the list multiplied by two.
+'''Write a function doubled() that takes in a 
+list of integers lst 
+as a parameter and prints each item in the list
+ multiplied by two.
 
 def doubled(lst):
     pass
@@ -10,3 +12,10 @@ Example Output:
 2
 4
 6'''
+
+def doubled(lst):
+    for num in lst:
+        print(num*2)
+
+lst = [1,2,3]
+doubled(lst)
