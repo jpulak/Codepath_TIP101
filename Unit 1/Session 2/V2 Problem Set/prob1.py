@@ -1,5 +1,10 @@
 #Problem 1: Convert Temperature
-'''Write a function convertTemp() that takes in celsius as a parameter, which denotes the temperature in celsius. The variable is a non-negative floating point number rounded to two decimal places. In the function, convert celsius into Kelvin and Fahrenheit and return the list ans, in which ans = [kelvin, fahrenheit].
+'''Write a function convertTemp() that takes in celsius
+ as a parameter, which denotes the temperature in celsius.
+   The variable is a non-negative floating point number
+     rounded to two decimal places. In the function, convert
+       celsius into Kelvin and Fahrenheit and return the list 
+       ans, in which ans = [kelvin, fahrenheit].
 
 Note that:
 
@@ -15,3 +20,19 @@ print(temperatures)
 Example Output:
 
 [296.15, 73.40]'''
+
+def convertTemp(celsius):
+    k = celsius + 273.15
+    f = (celsius *1.8)+32.00
+    return [k,f]
+
+	# output = []
+	# kelvin = celsius + 273.15
+	# fahrenheit = celsius * 1.8 + 32.0
+	
+	# output.append(kelvin)
+	# output.append(fahrenheit)
+	# return output
+
+temperatures = convertTemp(23.00)
+print(temperatures)
