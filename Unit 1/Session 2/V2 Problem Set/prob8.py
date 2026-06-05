@@ -1,5 +1,7 @@
 #Problem 8: Multiplication Table
-'''Write a function multiplication_table() that takes in an integer num and prints the multiples of that integer from 1 to 10.
+'''Write a function multiplication_table() that
+ takes in an integer num and prints the multiples of 
+ that integer from 1 to 10.
 
 def multiplication_table(num):
     pass
@@ -17,3 +19,9 @@ Example Output:
 56
 63
 70'''
+
+def multiplication_table(num):
+    for i in range(1,11):
+        print(i*num)
+
+multiplication_table(7)
