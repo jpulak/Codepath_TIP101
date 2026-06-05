@@ -1,5 +1,7 @@
 #Problem 11: Odd Indices
-'''Write a function print_odd_indices() that takes in a list nums as a parameter and prints out items at odd indices in the list.
+'''Write a function print_odd_indices() that 
+takes in a list nums as a parameter and prints out 
+items at odd indices in the list.
 
 def print_odd_indices(nums):
     pass
@@ -13,3 +15,11 @@ Example Output:
 1
 2
 '''
+
+def print_odd_indices(nums):
+    for i in range(len(nums)):
+        if i %2 ==1:
+            print (nums[i])
+    
+nums = [3,4,8,1,5,2]
+print_odd_indices(nums)
