@@ -1,5 +1,9 @@
 #Problem 6: Odd Keys Even Values
-'''Write a function odd_keys_even_values() that takes in dictionary as a parameter, a dictionary with integer keys and values. The function returns a list of keys that are odd where their corresponding values are even.
+'''Write a function odd_keys_even_values() 
+that takes in dictionary as a parameter, a 
+dictionary with integer keys and values. The 
+function returns a list of keys that are odd where
+ their corresponding values are even.
 
 def odd_keys_even_values(dictionary):
     pass
@@ -11,3 +15,4 @@ print(final_list)
 Example Output:
 
 [1, 5]'''
+
