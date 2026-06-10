@@ -43,6 +43,11 @@ def keys_v_values(dictionary):
         return "Values"
     else:
         return "balanced"
+    
+# for num in dictionary.keys() :
+#         keys += num
+#         vals += dictionary.get(num)
+
 # def keys_v_values(dictionary):
 #     keys=0
 #     vals=0
