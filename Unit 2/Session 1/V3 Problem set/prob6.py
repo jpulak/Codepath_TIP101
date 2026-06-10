@@ -16,3 +16,15 @@ Example Output:
 
 [1, 5]'''
 
+def odd_keys_even_values(dictionary):
+    all=[]
+    for key, val in dictionary.items():
+        if key%2 !=0:
+            if val%2 ==0:
+        # if key % 2 != 0 and value % 2 == 0:
+                all.append(key)
+    return all
+
+dictionary = {1: 2, 2: 6, 3: 5, 4: 4, 5: 8}
+final_list = odd_keys_even_values(dictionary)
+print(final_list)
