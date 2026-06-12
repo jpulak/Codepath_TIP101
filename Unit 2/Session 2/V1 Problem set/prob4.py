@@ -33,8 +33,15 @@ task3
 def get_highest_priority_task(tasks):
 	if not tasks:
 		return None
-	
-	
+
+	high_priority= max(tasks.values())
+	highest_task = None
+	for task, priority in tasks.items():
+		if priority == high_priority:
+			if highest_task is None or task < highest_task:
+				highest_task = task
+	tasks.pop(highest_task)
+	return highest_task
 
 tasks = {"task1": 8, "task2": 10, "task3": 9, "task4": 10, "task5": 7}
 perform_task = (get_highest_priority_task(tasks))
