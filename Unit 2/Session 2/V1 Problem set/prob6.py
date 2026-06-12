@@ -1,5 +1,11 @@
 #Problem 6: Has Duplicates
-'''Write a function has_duplicates() that takes in a list of integers nums and a positive number k as parameters. The function returns True if the list contains any duplicate elements within k (inclusive) indices of each other. In other words, return True if nums[i] has the same value as any of the k neighboring elements to its left or right. If k is greater than the list's length, the solution should check for duplicates in the complete list. The function should return False otherwise.
+'''Write a function has_duplicates() that takes in a list of integers 
+nums and a positive number k as parameters. The function returns True if 
+the list contains any duplicate elements within k (inclusive) indices of 
+each other. In other words, return True if nums[i] has the same value as 
+any of the k neighboring elements to its left or right. If k is greater than 
+the list's length, the solution should check for duplicates in the complete 
+list. The function should return False otherwise.
 
 def has_duplicates(nums, k):
 	pass
@@ -17,3 +23,6 @@ Example Output:
 False
 True
 True'''
+
+def has_duplicates(nums, k):
+	pass
