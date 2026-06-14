@@ -62,7 +62,7 @@ def smaller_numbers_than_current(nums):
     return all
 '''
 
-def smaller_numbersT_than_current(nums):
+def smaller_numbers_than_current(nums):
     # Sort the nums list
     sorted_nums = sorted(nums)
     
