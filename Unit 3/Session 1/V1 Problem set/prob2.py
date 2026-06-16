@@ -13,12 +13,10 @@ print(swapped)
 Example Output: toab'''
 
 def swap_ends(my_str):
-    a=[]
-    for i in range(len(my_str)-1,-1,-1):
-        a.append(my_str[i])
-
-    return "".join(a)
+    return my_str[-1::]+my_str[1:-1]+my_str[0]
 
 my_str = "boat"
 swapped = swap_ends(my_str)
 print(swapped)
+
+#start:stop:step
