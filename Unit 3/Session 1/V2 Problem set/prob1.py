@@ -15,3 +15,9 @@ Ash and Pikachu are a perfect match.
 def match_made(dictionary):
     for key, value in dictionary.items():
         print( f"{key} and {value} are a perfect match.")
+
+new ={}
+new["Peanut butter"]="Jelly"
+new["Spongebob"]="Patrick"
+new["Ash"]="Pikachu"
+match_made(new)
