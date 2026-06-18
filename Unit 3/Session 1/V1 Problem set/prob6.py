@@ -26,7 +26,18 @@ Example Output:
 2'''
 
 def min_distance(words, word1, word2):
-    pass
+    index1, index2 = -1, -1
+    min_dist = len(words)  # Use the length of the list as the maximum possible distance
+    for i, word in enumerate(words):
+        if word == word1:
+            index1 = i
+            if index2 != -1:#if word 2 alr found
+                min_dist = min(min_dist, index1 - index2)
+        elif word == word2:
+            index2 = i
+            if index1 != -1:#if word 1 alr found
+                min_dist = min(min_dist, index2 - index1)
+    return min_dist if min_dist != len(words) else -1
 
 
 words = ["the", "quick", "brown", "fox", "jumped", "the"]
