@@ -28,3 +28,9 @@ def reverse_sentence(sentence):
 
 sentence = "I solemnly swear I am up to no good"
 print(reverse_sentence(sentence))
+
+# def reverse_sentence(sentence):
+#     words = sentence.split(' ')
+#     reversed_words = words[::-1]
+#     reversed_sentence = ' '.join(reversed_words)
+#     return reversed_sentence
