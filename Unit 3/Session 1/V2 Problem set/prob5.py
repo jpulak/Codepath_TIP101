@@ -27,3 +27,33 @@ abcde
 # length
 
 '''
+
+def compress_string(my_str):
+    if not my_str:
+        return ""
+    
+    res =""
+    count =1
+    current_char = my_str[0]
+
+    for i in range(1,len(my_str)):
+        if my_str[i] == current_char:
+            count +=1
+        else:
+            res += current_char + str(count)
+            current_char = my_str[i]
+            count =1
+    
+    res += current_char + str(count)
+    if len(res) < len(my_str):
+        return res
+    else:
+        return my_str
+
+my_str = "aaaaabbcccd"
+compressed_Str = compress_string(my_str)
+print(compressed_Str)
+
+my_str2 = "abcde"
+compressed_Str2 = compress_string(my_str2)
+print(compressed_Str2)

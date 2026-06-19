@@ -21,3 +21,9 @@ def sum_of_number_strings(nums):
 nums = ["10", "20", "30"]
 sum = sum_of_number_strings(nums)
 print(sum)
+
+# def sum_of_number_strings(nums):
+#     total_sum = 0
+#     for num_str in nums:
+#         total_sum += int(num_str)
+#     return total_sum
