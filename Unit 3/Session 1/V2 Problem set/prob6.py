@@ -27,8 +27,14 @@ def find_the_needle(haystack, needle):
     if not needle:
         return 0
     
+    len_needle = len(needle)
 
-    return haystack.find(needle)
+    for i in range(len(haystack) - len_needle +1):
+        if haystack[i:i + len_needle] == needle:
+            return i
+    return -1
+
+    # return haystack.find(needle)
 
 haystack = "tobeornottobe"
 needle = "be"
