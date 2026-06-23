@@ -1,5 +1,10 @@
 #Problem 3: First Duplicate
-'''Write a function first_repeated_char() that takes in a string s as a parameter and returns the index of the first repeated character in the string. Uppercase and lowercase letters are considered different characters, and the function returns None if there are no repeated characters.
+'''Write a function first_repeated_char() that takes
+ in a string s as a parameter and returns the index of 
+ the first repeated character in the string. Uppercase 
+ and lowercase letters are considered different characters,
+   and the function returns None if there are no repeated
+     characters.
 
 def first_repeated_char(s):
     pass
@@ -17,3 +22,21 @@ Example Output:
 3
 5
 None'''
+
+def first_repeated_char(s):
+    
+    seen =[]
+    for index, char in enumerate(s):
+        if char in seen:
+            return index
+        seen.append(char)
+    return None
+            
+
+s = "hello world"
+s2 = "aAbBCC"
+s3 = "abcdefg"
+
+print(first_repeated_char(s))
+print(first_repeated_char(s2))
+print(first_repeated_char(s3))
