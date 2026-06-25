@@ -25,3 +25,17 @@ Example Output:
 # substrings for s3: 
 0
 '''
+
+def binary_substrings_count(s):
+    prev_run_length = 0
+    curr_run_length = 1
+    count = 0
+    for i in range(1, len(s)):
+        if s[i] == s[i-1]:
+            curr_run_length += 1
+        else:
+            prev_run_length = curr_run_length
+            curr_run_length = 1
+        if prev_run_length >= curr_run_length:
+            count += 1
+    return count

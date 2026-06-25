@@ -16,3 +16,25 @@ Example Output:
 
 True
 False'''
+def can_place_flowers(flowerbed, n):
+    count = 0  # Count of flowers that can be planted
+    length = len(flowerbed)
+
+    for i in range(length):
+        # Check if the current plot is empty
+        if flowerbed[i] == 0:
+            # Check the previous and next plot, considering the edge cases
+            prev_empty = i < 0 or flowerbed[i - 1] == 0
+            next_empty = i >= length or flowerbed[i + 1] == 0
+            
+            # If both adjacent plots are empty, plant a flower here
+            if prev_empty and next_empty:
+                flowerbed[i] = 1  # Mark this plot as planted
+                count += 1  # Increment the count of flowers that can be planted
+                
+                # If we've planted enough flowers, return true immediately
+                if count >= n:
+                    return True
+
+    # After checking all plots, if we've planted enough flowers, return true; otherwise, false
+    return count >= n
