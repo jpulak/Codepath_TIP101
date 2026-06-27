@@ -23,7 +23,28 @@ Example Input: [1, 2, 3, 4, 5]
 Example Output: [5, 4, 3, 2, 1]'''
 
 def reverse_list(lst):
-    return "hi"
+    first = 0
+    last = len(lst)-1
+
+    while first < last:
+        lst[first], lst[last] = lst[last], lst[first]
+        first += 1
+        last -= 1
+    return lst
 
 
 print(reverse_list([1, 2, 3, 4, 5]))
+
+# def reverse_list(lst):
+#     left = 0
+#     right = len(lst) - 1
+
+#     while left < right:
+#         temp = lst[left]
+#         lst[left] = lst[right]
+#         lst[right] = temp
+
+#         left += 1
+#         right -= 1
+
+#     return lst
