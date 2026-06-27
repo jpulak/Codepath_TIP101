@@ -23,7 +23,7 @@ Example Input: [1, 2, 3, 4, 5]
 Example Output: [5, 4, 3, 2, 1]'''
 
 def reverse_list(lst):
-    pass
+    return "hi"
 
 
 print(reverse_list([1, 2, 3, 4, 5]))
