@@ -17,23 +17,24 @@ Example Output:
 holle
 leotcede
 '''
-'''
- alist with the vowels
- iterate through the string and take out all
- of teh voewles, and reverse them in a seperate list
- then as you go through the string,
- when it reaches a vowle, repalce with tthe vowel in the
- reversed list
-'''
 def is_vowel(c):
     return c in 'aeiouAEIOU'
 
 def reverse_vowels(s):
     left =0
     right = len(s)-1
+    s = [*s]
     while left < right:
+        #mov eth eleft pointer until it points to vowel
+        while left < right and not is_vowel(s[left]):
+            left +=1
+        while left < right and not is_vowel (s[right]):
+            right -=1
         
-
+        s[left],s[right] = s[right], s[left]
+        left +=1
+        right -=1
+    return "".join(s)
 
     
 

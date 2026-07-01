@@ -34,8 +34,8 @@ def remove_duplicates(nums):
         if nums[fast] != nums[slow-1]:
             nums[slow] = nums[fast]
             slow +=1
-            
-    nums[:] = nums[:j]
+
+    # nums[:] = nums[:j]
     del nums[slow:]
     return slow
 

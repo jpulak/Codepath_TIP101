@@ -1,7 +1,13 @@
 #Problem 6: Two-Pointer Remove Element
-'''The two-pointer approach can also be used with two pointers that iterate forward through a list or string at different rates. Use two pointers to solve the following problem:
-
-Write a function remove_element() that takes in a list nums and a value val as parameters and removes all instances of that value in-place. The function returns the new length of nums.
+'''The two-pointer approach can also be used
+ with two pointers that iterate forward through
+   a list or string at different rates. Use two
+    
+      pointers to solve the following problem:
+Write a function remove_element() that takes in a
+ list nums and a value val as parameters and removes 
+ all instances of that value in-place. The function 
+ returns the new length of nums.
 
 def remove_element(nums, val):
     pass
@@ -16,3 +22,6 @@ Example Output:
 [5, 3, 1]
 3
 '''
+
+
+
