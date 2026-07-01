@@ -22,6 +22,22 @@ Example Output:
 [5, 3, 1]
 3
 '''
+#fast slow
+def remove_element(nums, val):
+    write = 0
+    for read in range(len(nums)):
+        if nums[read] != val:
+            nums[write] = nums[read]
+            write +=1
+    del nums[write:]#all the good numbers moved to the left and del rest
+    return write
 
+    
+        
+    
 
+nums = [5, 4, 4, 3, 4, 1]
+nums_len = remove_element(nums, 4)
+print(nums) # same list
+print(nums_len)
 
