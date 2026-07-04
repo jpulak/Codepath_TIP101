@@ -17,3 +17,25 @@ print(count_good_substrings(s2))
 1
 4
 '''
+
+def count_good_substrings(s):
+    count = 0
+    for i in range(len(s) - 2):
+    # Extract the current window of size 3
+        window = s[i:i+3]
+        if len(window) == len(set(window)):
+            count +=1
+
+    return count
+
+
+s1 = "xyzzaz"
+s2 = "xyzxyz"
+print(count_good_substrings(s1))
+print(count_good_substrings(s2))
+
+'''
+substring
+for i in range(len(s) - windowsize-1)
+    window = s[i:i+windowsize]
+'''
