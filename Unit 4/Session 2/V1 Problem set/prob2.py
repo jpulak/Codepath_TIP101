@@ -42,3 +42,21 @@ s = [2,2,2]
 find_content_children(s, g) 
 # Output: 2 '''
 
+def find_content_children(g, s):
+    g.sort()  # Sort the greed factors
+    s.sort()  # Sort the sizes of the cookies
+    child_i, cookie_j = 0, 0
+    while child_i < len(g) and cookie_j < len(s):
+        if g[child_i] <= s[cookie_j]:
+            # This child can be content with this cookie, move to next child
+            child_i += 1
+        # Move to next cookie whether it was used to content a child or not
+        cookie_j += 1
+    return child_i
+
+# Example 1
+print(find_content_children([1, 2, 3], [1, 1, 3])) # Should print 2
+
+# Example 2
+print(find_content_children([1, 1], [2, 2, 2])) # Should print 2
+
