@@ -17,3 +17,23 @@ Example Output:
 [0,1,9,16,100]
 
 '''
+
+def sorted_squares(nums):
+    left, right = 0, len(nums) - 1
+    result = [0] * len(nums)
+    for i in range(len(nums) - 1, -1, -1):
+        if abs(nums[left]) > abs(nums[right]):
+            square = nums[left] ** 2
+            left += 1
+        else:
+            square = nums[right] ** 2
+            right -= 1
+        result[i] = square
+    return result
+
+nums = [1,2,3,4]
+sq_nums = sorted_squares(nums)
+print(sq_nums)
+nums2 = [-4,-1,0,3,10]
+sq_nums2 = sorted_squares(nums2)
+print(sq_nums2)

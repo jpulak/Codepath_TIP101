@@ -13,3 +13,24 @@ lst = [-1, 2, -2, 3, 5, -7, -5]
 print(count_negatives(lst, 3))
 Example Output: [2,1,1,1,2]
 '''
+
+def count_negatives(lst, k):
+    result = []
+    start = 0
+    count = 0
+    
+    for i in range(len(lst)):
+        if lst[i] < 0:
+            count += 1
+        
+        if (i - start + 1 == k):
+            result.append(count)
+            if lst[start] < 0:
+                count -= 1
+                
+            start += 1
+    
+    return result
+
+lst = [-1, 2, -2, 3, 5, -7, -5]
+print(count_negatives(lst, 3))
