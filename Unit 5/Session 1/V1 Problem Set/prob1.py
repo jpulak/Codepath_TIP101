@@ -10,6 +10,6 @@ instantiate an instance of the class Pokemon and store
 class Pokemon:
     def __init__(self, name, types):
         self.name = name
-        self.types = types
+        self.types = types m
         self.is_caught = False'''
 
