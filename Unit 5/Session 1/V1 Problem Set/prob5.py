@@ -32,10 +32,13 @@ class Pokemon:
 		self.name = name
 		self.types = types
 		self.is_caught = False
-
 	def print_pokemon(self):
-		print(f"Name :{self.name} Type: {self.types} Status: {self.is_caught}")
-	
+		print( {
+			"name": self.name,
+			"types": self.types,
+			"is_caught": self.is_caught
+		})
+		
 	def catch(self):
 		self.is_caught = True
 	
