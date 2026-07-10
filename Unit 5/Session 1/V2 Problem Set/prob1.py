@@ -1,9 +1,19 @@
 #Problem 1: Card Class
 '''Step 1: Copy the following code into your IDE.
 
-Step 2: Instantiate an instance of the class Card and store it in a variable named card. The Card object should have the suit "Spades" and the rank "8".
+Step 2: Instantiate an instance of the class Card
+ and store it in a variable named card. The Card 
+ object should have the suit "Spades" and the rank "8".
 
 class Card():
 	def  __init__(self, suit, rank):
 		self.suit = suit
 		self.rank = rank'''
+
+class Card():
+	def  __init__(self, suit, rank):
+		self.suit = suit
+		self.rank = rank
+
+new = Card("Spades","8")
+print(f"suit: {new.suit} rank: {new.rank}")
