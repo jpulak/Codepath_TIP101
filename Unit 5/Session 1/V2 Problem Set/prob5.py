@@ -26,3 +26,24 @@ Example Output:
 7
 11
 '''
+
+class Card():
+	def  __init__(self, suit, rank):
+		self.suit = suit
+		self.rank = rank
+
+	def print_card(self):
+		print(f"{self.rank} of {self.suit}")
+
+	def is_valid(self):
+		suit = ["Hearts", "Spades", "Clubs", "Diamonds"]
+		rank = ["2", "3", "4", "5", "6", "7", "8", "9", "10", "Jack", "Queen", "King", "Ace"]
+
+	def get_value():
+		if rank in 
+
+card = Card("Hearts", "7")
+print(card.get_value())
+
+card_two = Card("Spades", "Jack")
+print(card_two.get_value())
