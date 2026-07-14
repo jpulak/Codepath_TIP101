@@ -32,3 +32,13 @@ player1_hand.add_card(card_two)
 player1_hand.remove_card(card_one)
 # cards = [card_two]
 '''
+
+class Hand:
+    def __init__(self):
+        self.cards = []
+     
+    def add_card(self, card):
+	    pass
+	    
+	def remove_card(self, card):
+		pass
