@@ -40,7 +40,7 @@ class Card():
 		rank = ["2", "3", "4", "5", "6", "7", "8", "9", "10", "Jack", "Queen", "King", "Ace"]
 
 	def get_value():
-		if rank in 
+		if rank in new
 
 card = Card("Hearts", "7")
 print(card.get_value())
