@@ -39,8 +39,17 @@ class Card():
 		suit = ["Hearts", "Spades", "Clubs", "Diamonds"]
 		rank = ["2", "3", "4", "5", "6", "7", "8", "9", "10", "Jack", "Queen", "King", "Ace"]
 
-	def get_value():
-		if rank in new
+	def get_value(self):
+		if self.rank == "Ace":
+			return 1
+		elif self.rank == "Jack":
+			return 11
+		elif self.rank == "Queen":
+			return 12
+		elif self.rank == "King":
+			return 13
+		elif self.rank.isalnum():
+			return self.rank
 
 card = Card("Hearts", "7")
 print(card.get_value())
