@@ -34,19 +34,3 @@ sum = sum_hand(hand)
 print(sum)
 Example Output: 17'''
 
-class Card():
-    def  __init__(self, suit, rank):
-		self.suit = suit
-		self.rank = rank s2
-		
-	#... methods from previous problems
-
-class Hand:
-    def __init__(self):
-        self.cards = []
-        
-	# ... methods from previous problems
-		
-	
-def sum_hand(hand):
-	pass
