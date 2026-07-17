@@ -3,6 +3,7 @@
 
 Create a new Node middle with value 150 and insert it between head and tail from Problem 9.
 
+asd
 Example Usage:
 
 print(head.next.value) 
