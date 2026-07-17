@@ -17,7 +17,7 @@ card_one = Card("Hearts", "3")
 card_two = Card("Hearts", "4")
 card_three = Card("Diamonds", "King")
 
-card_one.next = card_two
+card_one.next = card_twoasdfasdf
 card_two.next = card_three
 
 print_hand(card_one)
