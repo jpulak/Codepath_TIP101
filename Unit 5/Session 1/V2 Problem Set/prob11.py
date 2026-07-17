@@ -1,6 +1,6 @@
 #Problem 11: Zodiac Signs
 '''Create the list ["aries", "taurus", "gemini", "cancer"] as a linked list using the Node class:
-
+s2
 class Node:
 	def __init__(self, value, next=None):
 		self.value = value
