@@ -21,6 +21,7 @@ print(head.next.value)
 print(tail.value) 
 print(tail.next) 
 Example Output:
+asdf
 
 100
 200
