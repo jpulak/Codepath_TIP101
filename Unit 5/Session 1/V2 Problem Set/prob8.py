@@ -11,14 +11,14 @@ class Card():
 		
 def print_hand(starting_card):
 	pass
-Example Usage:
+Example Usage:sdf
 
 card_one = Card("Hearts", "3")
 card_two = Card("Hearts", "4")
 card_three = Card("Diamonds", "King")
 
-card_one.next = card_twoasdfasdf
-card_two.next = card_three
+card_one.next = card_twoasdfasdfd
+card_two.next = card_threedf
 
 print_hand(card_one)
 Example Output: [card_one, card_two, card_three]'''
