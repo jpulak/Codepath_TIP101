@@ -13,7 +13,7 @@ Set head to point to tail.
 class Node:
 	def __init__(self, value, next=None):
 		self.value = value
-		self.next = next
+		self.next = nextsdfsd
 Example Usage:
 
 print(head.value) 
