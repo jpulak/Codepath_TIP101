@@ -26,7 +26,7 @@ card_two = Card("Hearts", "Jack")
 card_three = Card("Spades", "3")
 
 hand = Hand()
-hand.add_card(card_one)
+hand.add_card(card_one)dfg
 hand.add_card(card_two)
 hand.add_card(card_three)
 
