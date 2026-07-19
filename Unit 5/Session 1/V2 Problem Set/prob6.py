@@ -23,7 +23,7 @@ card_two = Card("Spades", "8")
 player1_hand = Hand()
 # cards = []
 
-player1_hand.add_card(card_one)
+player1_hand.add_card(card_one)dfgdf
 # cards = [card_one]
 
 player1_hand.add_card(card_two)
