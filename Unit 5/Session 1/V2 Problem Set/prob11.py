@@ -10,7 +10,7 @@ Example Usage (after completing the problem with variable names node_1, node_2, 
 print(node_1.value, "->", node_1.next.value)
 print(node_2.value, "->", node_2.next.value)
 print(node_3.value, "->", node_3.next.value)
-print(node_4.value, "->", node_4.next)
+print(node_4.value, "->", node_4.next)sdf
 Example Output:
 
 aries -> taurus
