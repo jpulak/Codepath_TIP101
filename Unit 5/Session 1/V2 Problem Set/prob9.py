@@ -17,7 +17,7 @@ class Node:
 Example Usage:
 
 print(head.value) 
-print(head.next.value) 
+print(head.next.value) sd
 print(tail.value) 
 print(tail.next) 
 Example Output:
