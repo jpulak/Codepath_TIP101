@@ -6,7 +6,7 @@ Create a new Node middle with value 150 and insert it between head and tail from
 asd
 Example Usage:
 
-print(head.next.value) 
+print(head.next.value) sd
 print(middle.next.value)
 print(tail.next) 
 Example Output:
