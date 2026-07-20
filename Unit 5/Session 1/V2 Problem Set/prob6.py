@@ -14,7 +14,7 @@ class Hand:
 Step 2: Add two methods add_card() and remove_card() to the Hand class that each accept a Card object as a parameter.
 
 add_card() should add the Card to the player's Hand
-remove_card() should remove the card from the player's Hand.
+remove_card() should remove the card from the player's Hand.sdf
 Example Usage:
 
 card_one = Card("Hearts", "3")
