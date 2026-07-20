@@ -14,7 +14,7 @@ class Hand:
     def __init__(self):
         self.cards = []
         
-	# ... methods from previous problems
+	# ... methods from previous problemssdf
 		
 	
 def sum_hand(hand):
