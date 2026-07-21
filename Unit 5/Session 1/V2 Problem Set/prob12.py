@@ -13,7 +13,7 @@ def print_linked_list(head):
 Example Usage:
 
 # input linked list: a->b->c->d->e
-print_linked_list(a)
+print_linked_list(a)sd
 Example Output:
 
 ['a','b','c','d','e']'''
