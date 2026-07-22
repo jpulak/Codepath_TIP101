@@ -1,5 +1,5 @@
 #Problem 1: Hello Hello
-'''A recursive function is a function that calls itself within the body of the function.
+'''A recursive function is a f6unction that calls itself within the body of the function.
 
 Step 1: Copy the recursive function repeat_hello() into your IDE and run it.
 
@@ -13,3 +13,10 @@ def repeat_hello(n):
 		repeat_hello(n - 1)
 		
 repeat_hello(5)'''
+
+def repeat_hello(n):
+	if n > 0:
+		print("Hello")
+		repeat_hello(n - 1)
+		
+repeat_hello(5)
