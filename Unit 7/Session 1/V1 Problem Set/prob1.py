@@ -20,3 +20,10 @@ def repeat_hello(n):
 		repeat_hello(n - 1)
 		
 repeat_hello(5)
+
+
+def repeat_hello_iterative(n):
+	for i in range(n):
+		print("Hello")
+
+repeat_hello_iterative(5)
