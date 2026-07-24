@@ -15,3 +15,16 @@ Example Output:
 
 True
 False'''
+
+def is_power_of_two(n):
+	if n == 1:
+		return True
+	#if n is less than 1 or not dividable by two it s not power of 2
+	elif n < 1 or n%2 !=0:
+		return False
+	#recursive case
+	else:
+		return is_power_of_two(n//2)
+	
+print(is_power_of_two(16))
+print(is_power_of_two(18))
