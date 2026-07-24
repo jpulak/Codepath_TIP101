@@ -12,3 +12,20 @@ Example Output:
 
 # Expected Output: 6
 # Explanation: The second (last) occurrence of 11 has index 6 in the list'''
+
+def find_last(lst, target):
+    left, right = 0, len(lst) - 1
+    last_occurrence = -1
+    
+    while left <= right:
+        mid = (left + right) // 2
+        
+        if lst[mid] == target:
+            last_occurrence = mid
+            left = mid + 1  # Continue searching in the right half
+        elif lst[mid] < target:
+            left = mid + 1
+        else:
+            right = mid - 1
+    
+    return last_occurrence
