@@ -12,3 +12,12 @@ Example Output:
 
 # Expected Output: 1
 # 2 is the largest element in the list that is less than or equal to 5. 2 has index 1 in the list.'''
+
+def find_floor(lst, x):
+	low = 0
+	high = len(lst) -1
+
+	
+
+# Expected Output: 1
+# 2 is the largest element in the list that is less than or equal to 5. 2 has index 1 in the list.
