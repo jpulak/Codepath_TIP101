@@ -16,8 +16,11 @@ Example Output:
 def find_floor(lst, x):
 	low = 0
 	high = len(lst) -1
+	floor = None
 	while low <= high:
-		
+		mid = (low+high) //2
+		if lst[mid] <=x:
+			floor = lst[mid]
 
 
 # Expected Output: 1
