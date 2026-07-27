@@ -8,7 +8,7 @@ def list_product(lst):
 Example Usage:
 
 # Example Input: [1, 2, 3, 4, 5]
-Example Output:
+Example Output:sss
 
 # Expected Output: 120
 # Explanation: 1 * 2 * 3 * 4 * 5 = 120
