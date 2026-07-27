@@ -15,7 +15,7 @@ def countdown(n):
 countdown(5)
 Example Usage:
 
-# Example Input: 5
+# Example Input: 5d
 Example Output:
 
 # Expected Output:
@@ -25,3 +25,10 @@ Example Output:
 # 2
 # 1
 # Explanation: The function prints numbers starting at 5 and counts down by 1 until it reaches 1.'''
+
+def countdown(n):
+	if n > 0:
+		print(n)
+		countdown(n - 1)
+		
+countdown(5)
