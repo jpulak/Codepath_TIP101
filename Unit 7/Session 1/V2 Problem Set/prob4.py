@@ -1,6 +1,6 @@
 #Problem 4: Recursive Power of 4
 '''Given an integer n, return True if n is a power of four. Otherwise, return False.
-
+d
 An integer n is a power of four if there exists an integer x such that n == 4ˣ.
 
 Solve the problem recursively. What is the time complexity of this function? What is the space complexity?
