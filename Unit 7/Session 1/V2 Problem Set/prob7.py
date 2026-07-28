@@ -1,6 +1,6 @@
 #Problem 7: Ternary Search
 '''Ternary search is a search algorithm that, similar to binary search, works on a sorted array. However, instead of dividing the search interval into two halves (as in binary search), ternary search divides it into three parts, using two midpoints. This reduces the problem size to approximately one-third in each step, rather than one-half.
-
+s2
 Given the pseudocode for ternary_search() below, implement the function. Evaluate the time and space complexity of your solution
 
 def ternary_search(lst, target):
