@@ -11,7 +11,7 @@ Example Usage:
 
 # Example Input 1: 16
 sss
-# Example Input 2: 8
+# Example Input 2: 8r
 Example Output:
 
 # Expected Output 1: True
