@@ -11,7 +11,7 @@ def ternary_search(lst, target):
 	  # Compare the target value with the values at mid1 and mid2:
 	      # If the target value matches mid1 or mid2
 		      # the search is successful.
-	      # If the target is less than the value at mid1
+	      # If the target is ledss than the value at mid1
 		      # search between the lower bound and mid1 - 1.
 	      # If the target is between mid1 and mid2
 		      # search between mid1 + 1 and mid2 - 1.
