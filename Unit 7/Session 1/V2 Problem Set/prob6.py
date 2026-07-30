@@ -12,5 +12,5 @@ Example Output:
 
 # Expected Output: 2
 # 8 is the largest element in the list that is greater than or equal to 5. 
-# 8 has index 2 in the list.
+# 8 has index 2 in the list.d
 '''
