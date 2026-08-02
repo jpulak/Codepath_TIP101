@@ -13,7 +13,7 @@ def ternary_search(lst, target):
 		      # the search is successful.
 	      # If the target is ledss than the value at mid1
 		      # search between the lower bound and mid1 - 1.
-	      # If the target is between mid1 and mid2
+	      # If the target is between mid1 and mid2s
 		      # search between mid1 + 1 and mid2 - 1.
 	      # If the target is greater than the value at mid2
 		      # search between mid2 + 1 and the upper bound.
