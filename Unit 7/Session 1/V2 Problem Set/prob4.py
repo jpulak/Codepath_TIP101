@@ -10,7 +10,7 @@ def is_power_of_four(n):
 Example Usage:
 
 # Example Input 1: 16
-sss
+ssss
 # Example Input 2: 8r
 Example Output:
 
