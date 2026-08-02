@@ -10,7 +10,7 @@ def fibonacci(n):
 Example Usage:sssd
 
 # Example Input: 6
-Example Output:
+Example Output:s
 
 # Expected Output: 8
 # Explanation: The 6th Fibonacci number is 8. The 5th Fibonacci number is 5 and the 4th Fibonacci
