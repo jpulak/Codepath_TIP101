@@ -16,7 +16,7 @@ countdown(5)
 Example Usage:
 sssss
 # Example Input: 5d
-Example Output:
+Example Output:s
 
 # Expected Output:
 # 5
@@ -26,9 +26,7 @@ Example Output:
 # 1
 # Explanation: The function prints numbers starting at 5 and counts down by 1 until it reaches 1.'''
 
-def countdown(n):
-	if n > 0:
-		print(n)
-		countdown(n - 1)
-		
-countdown(5)
+def coutdown_iteration(n):
+    for i in range(n,0,-1):
+        print(i)
+
