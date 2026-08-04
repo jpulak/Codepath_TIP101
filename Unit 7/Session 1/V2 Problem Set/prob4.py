@@ -10,7 +10,7 @@ def is_power_of_four(n):
 Example Usage:
 
 # Example Input 1: 16
-ssss
+ 
 # Example Input 2: 8r
 Example Output:
 
@@ -21,3 +21,4 @@ Example Output:
 # Explanation: 8 is not a power of four (no integer x such that 4^x = 8).
 
 '''
+
