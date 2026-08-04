@@ -9,7 +9,14 @@ Example Usage:
 
 # Example Input: [1, 2, 3, 4, 5]
 Example Output:sss
-ds
+ 
 # Expected Output: 120
 # Explanation: 1 * 2 * 3 * 4 * 5 = 120
 '''
+
+def list_product(lst):
+    if not lst:
+        return 1
+    else:
+        
+    
