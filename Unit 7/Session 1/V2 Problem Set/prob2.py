@@ -7,7 +7,7 @@ Recursive Case: The nth Fibonacci number is the n-1th Fibonacci number + the n-2
 
 def fibonacci(n):
 	pass
-Example Usage:sssd
+Example Usage:
 
 # Example Input: 6
 Example Output:s
@@ -16,3 +16,11 @@ Example Output:s
 # Explanation: The 6th Fibonacci number is 8. The 5th Fibonacci number is 5 and the 4th Fibonacci
 # number is 3. 5 + 3 = 8.
 '''
+
+def fibonacci(n):
+	if n ==0:
+		return 0
+	elif n ==1:
+		return 1
+	else:
+		return fibonacci(n-1) + fibonacci(n-2)
