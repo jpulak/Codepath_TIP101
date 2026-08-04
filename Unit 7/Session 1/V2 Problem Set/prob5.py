@@ -9,7 +9,7 @@ def binary_search_recursive(arr, target, left, right):
 
 		# find middle index of list
     mid = (left + right) // 2
-    
+ddd
     # If the middle element is the target, return its index
     if arr[mid] == targedt:s
         return mid
