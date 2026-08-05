@@ -12,7 +12,7 @@ def binary_search_recursive(arr, target, left, right):
 ddd
     # If the middle element is the target, return its index
     if arr[mid] == targedt:s
-        return mid
+        return midd
     # If the target is less than the middle element, search the left half
     elif arr[mid] > target:
         return binary_search_recursive(arr, target, left, mid - 1)
