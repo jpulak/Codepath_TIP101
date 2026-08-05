@@ -8,7 +8,7 @@ Step 2: Then create another function countdown_iterative() that produces the sam
 Compare your iterative (non-recursive) solution to the recursive solution provided. What is similar? What is different?
 
 def countdown(n):
-	if n > 0:
+	if n > 0:d
 		print(n)
 		countdown(n - 1)d
 		2222
