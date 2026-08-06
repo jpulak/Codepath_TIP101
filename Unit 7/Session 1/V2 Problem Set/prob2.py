@@ -9,7 +9,7 @@ def fibonacci(n):
 	pass
 Example Usage:
 
-# Example Input: 6d
+# Example Input: 6dd
 Example Output:s
 
 # Expected Output: 8
