@@ -48,3 +48,30 @@ The root-to-leaf path 4->9->1 represents the number 491.
 The root-to-leaf path 4->0 represents the number 40.
 Therefore, sum = 495 + 491 + 40 = 1026.
 '''
+
+class TreeNode(object):
+    def __init__(self, val=0, left=None, right=None):
+        self.val = val
+        self.left = left
+        self.right = right
+
+def sum_numbers(root):
+    def dfs(node, current_number):
+        if node is None:
+            return 0
+        
+        current_number = current_number * 10 + node.val
+        
+        # If the current node is a leaf, return the current number
+        if node.left is None and node.right is None:
+            return current_number
+        
+        # Recursively sum the numbers from the left and right subtrees
+        left_sum = dfs(node.left, current_number)
+        right_sum = dfs(node.right, current_number)
+        
+        return left_sum + right_sum
+    
+    # Start DFS with the root and initial current number as 0
+    return dfs(root, 0)
+
