@@ -13,4 +13,11 @@ ddd
 # Expected Output: 2s
 # 8 is the largest element in the list that is greater than or equal to 5. 
 # 8 has index 2 in the list.d
-'''d
+'''
+
+def find_ceiling(lst, x):
+	low,high = 0,len(lst)-1
+	res =-1
+
+	while low<=high:
+		
