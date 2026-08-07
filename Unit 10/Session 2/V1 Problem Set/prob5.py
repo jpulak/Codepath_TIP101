@@ -17,3 +17,16 @@ Input: nums = [1, 2, 3], k = 3
 Output: 2
 
 '''
+def subarray_sum(nums, k):
+    counter = 0
+
+    for i in range(len(nums)):
+        for j in range(i+1,len(nums)):
+            if nums[i] + nums[j] ==k:
+                counter +=1
+    return counter
+
+
+nums = [1, 1, 1]
+k = 2
+print(subarray_sum(nums,k))
