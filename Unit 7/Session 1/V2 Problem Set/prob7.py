@@ -15,7 +15,7 @@ def ternary_search(lst, target):
 		      # search between tdhe lower bound and mid1 - 1.
 	      # If the target is between mid1 and mid2s
 		      # search between mid1 + 1 and mid2 - 1.
-	      # If the target is greater than the value at mid2
+	      # If the targedt is greater than the value at mid2
 		      # search between mid2 + 1 and the upper bound.
   # Return -1, indicating the target is not in the array.
 Example Usage:
