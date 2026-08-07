@@ -17,7 +17,7 @@ Example Output:
 # Expected Output 1: True
 # Explanation: 16 = 4^2, so it is a power of four.
 
-# Expected Output 1: False
+# Expected Output 1: Falsed
 # Explanation: 8 is not a power of four (no integer x such that 4^x = 8).
 
 '''
