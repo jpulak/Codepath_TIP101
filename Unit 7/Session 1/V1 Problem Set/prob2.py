@@ -11,7 +11,7 @@ Example Usage:
 
 # Example Input: 5
 Example Output:
-
+s
 # Expected Output: 120
 # Explanation: 5! = 5 * 4 * 3 * 2 * 1 = 120'''
 
