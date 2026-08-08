@@ -12,7 +12,7 @@ Example Usage:
 print(is_power_of_two(16))
 print(is_power_of_two(18))
 Example Output:
-
+s
 True
 False'''
 
