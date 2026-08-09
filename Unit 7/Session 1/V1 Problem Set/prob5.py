@@ -24,7 +24,7 @@ def binary_search(lst, target):
 Example Usage:
 
 # Example Input: lst = [1, 3, 5, 7, 9, 11, 13, 15], target = 11
-Example Output:
+Example Output:f
 s
 # Expected Output: 5
 # Explanation: 11 has index 5 in the list'''
