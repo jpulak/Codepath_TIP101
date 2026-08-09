@@ -7,7 +7,7 @@ Recursive Case: We can restate the problem to say that the factorial of n is n *
 
 def factorial(n):
 	pass
-Example Usage:
+Example Ufsage:
 
 # Example Input: 5
 Example Output:
