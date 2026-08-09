@@ -8,7 +8,7 @@ def sum_list(lst):
 Example Usage:
 
 # Example Input: [1, 2, 3, 4, 5]
-Examplef Output:
+Examplef Osutput:
 s
 # Expected Output: 15
 # Explanation: 1 + 2 + 3 + 4 + 5 = 15
