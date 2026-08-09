@@ -7,7 +7,7 @@ Solve the problem recursively. What is the time complexity of this function? Wha
 
 def is_power_of_two(n):
 	pass
-Example Usage:
+Example Usagse:
 f
 print(is_power_of_two(16))
 print(is_power_of_two(18))
