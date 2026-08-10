@@ -9,7 +9,7 @@ def factorial(n):
 	pass
 Example Ufsage:
 s
-# Example Input: 5
+# Example Input: 5d
 Example Output:
 s
 # Expected Output: 120
