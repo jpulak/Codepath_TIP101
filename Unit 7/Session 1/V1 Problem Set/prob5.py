@@ -11,7 +11,7 @@ def binary_search(lst, target):
 		# Find the middle index of the array
 		
 		# If the value at the middle index is the target value:
-			# Return the middle index
+			# Return the middle indexd
 		# Else if the value at the middle index is less than our target value:
 			# Update pointer(s) to only search right half of the list in next loop iteration
 		# Else
