@@ -10,7 +10,7 @@ def factorial(n):
 Example Ufsage:
 s
 # Example Input: 5d
-Example Output:
+Example Output:d
 s
 # Expected Output: 120
 # Explanation: 5! = 5 * 4 * 3 * 2 * 1 = 120'''
