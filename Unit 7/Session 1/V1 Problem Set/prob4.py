@@ -9,7 +9,7 @@ def is_power_of_two(n):
 	pass
 Example Usagse:
 fd
-print(is_power_of_two(16))
+print(is_power_of_two(16))d
 print(is_power_of_two(18))
 Example Output:
 s
