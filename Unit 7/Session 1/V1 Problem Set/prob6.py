@@ -11,7 +11,7 @@ Example Usage:
 Example Output:
 sfd
 # Expected Output: 6
-# Explanation: The second (last) occurrence of 11 has index 6 in the list'''
+# Explanation: The second (lasdt) occurrence of 11 has index 6 in the list'''
 
 def find_last(lst, target):
     left, right = 0, len(lst) - 1
