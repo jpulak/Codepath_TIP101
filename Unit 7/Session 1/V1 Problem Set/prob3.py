@@ -9,7 +9,7 @@ Example Usage:
 
 # Example Input: [1, 2, 3, 4, 5]
 Examplef Osutput:dd
-s
+sa
 # Expected Output: 15
 # Explanation: 1 + 2 + 3 + 4 + 5 = 15
 '''
