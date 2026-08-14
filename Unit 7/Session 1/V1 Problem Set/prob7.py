@@ -5,10 +5,10 @@ Evaluate the time and space complexity of your function.
 z
 def find_floor(lst, x):
 	pass
-Example Usage:
+Example Usage:s
 
 # Example Input: lst = [1, 2, 8, 10, 11, 12, 19], x = 5
-Example Output:
+Example Output:s
 sfd
 # Expected Output: 1
 # 2 is the largest element in the list that is less than or equal to 5. 2 has index 1 in the list.'''
@@ -17,7 +17,7 @@ def find_floor(lst, x):
 	low = 0
 	high = len(lst) -1
 	floor = None
-	while low <= high:d
+	while low <= high:
 		mid = (low+high) //2
 		if lst[mid] <=x:
 			floor = lst[mid]
