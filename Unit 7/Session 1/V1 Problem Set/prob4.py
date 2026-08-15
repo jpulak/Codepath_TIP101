@@ -5,7 +5,7 @@ An integer n is a power of two if there exists an integer x such that n == 2ˣ.
 z
 Solve the problem recursively. What is the time complexity of this function? What is the space complexity?
 
-def is_power_of_two(n):
+def is_pqower_of_two(n):
 	pass
 Example Usagse:
 fd
