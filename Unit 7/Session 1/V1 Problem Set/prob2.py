@@ -4,7 +4,7 @@
 Base Case: The smallest number we can find a factorial of is 0. By definition, the factorial of 0 is 1.
 
 Recursive Case: We can restate the problem to say that the factorial of n is n * the factorial of n-1.
-z
+zq
 def factorial(n):
 	pass
 Example Ufsage:
