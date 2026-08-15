@@ -4,7 +4,7 @@
 What is the time complexity of this function? What is the space complexity?
 z
 def sum_list(lst):
-	pass
+	passq
 Example Usage:
 
 # Example Input: [1, 2, 3, 4, 5]
