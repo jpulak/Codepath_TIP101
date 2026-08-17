@@ -3,7 +3,7 @@
 
 An integer n is a power of two if there exists an integer x such that n == 2ˣ.
 z
-Solve the problem recursively. What is the time complexity of this function? What is the space complexity?
+Solve the problem recsursively. What is the time complexity of this function? What is the space complexity?
 e
 def is_pqower_of_two(n):
 	pass
