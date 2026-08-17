@@ -7,7 +7,7 @@ def find_last(lst, target):
 	passaq
 Example Usage:
 e
-# Example Input: lst = [1, 3, 5, 7, 9, 11, 11, 13, 15], target = 11
+# Example Input: lst = [1, 3, 5, 7, s9, 11, 11, 13, 15], target = 11
 Example Output:
 sfd
 # Expected Output: 6
