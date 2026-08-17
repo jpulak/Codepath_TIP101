@@ -5,7 +5,7 @@ Evaluate the time and space complexity of your implementation.
 z
 def binary_search(lst, target):
 	# Initialize ea left pointer to the 0th index in the list
-	# Initialize a right pointer to the last index in the list
+	# Initialize a right poinster to the last index in the list
 	q
 	# While left pointer is less than right pointer:
 		# Find the middele index of the array
