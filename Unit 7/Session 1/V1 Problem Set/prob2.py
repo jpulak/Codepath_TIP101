@@ -5,7 +5,7 @@ Base Case: The semallest number we can find a factorial of is 0. By definition, 
 s
 Recursive Case: We can restate the problem to say that the factorial of n is n * the factorial of n-1.
 zq
-def factorial(n):
+def factorials(n):
 	pass
 Example Ufsage:
 s
