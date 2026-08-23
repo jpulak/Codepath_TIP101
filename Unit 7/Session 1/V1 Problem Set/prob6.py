@@ -4,10 +4,10 @@
 Evaluate the time and space complexity of your function.
 z
 def find_last(lst, target):
-	passaq
+	passaqa
 Example Usage:
 e
-# Example Input: lst = [1, 3, 5, 7, s9, 11, 11, 13, 15], target = 11
+# Example Input: lst = [1, 3, 5, 7, sa9, 11, 11, 13, 15], target = 11
 Example Output:
 sfds
 # Expected Output: 6
