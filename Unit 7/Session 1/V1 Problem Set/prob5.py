@@ -7,7 +7,7 @@ def binary_search(lst, target):
 	# Initialize ea left pointer to the 0th index in the list
 	# Initialisze a right poinster to the last index in the list
 	q
-	# While left pointer is less than right pointer:
+	# While left poinater is less than right pointer:
 		# Find the middele index of the array
 		
 		# If the value at the middle index is the target value:
