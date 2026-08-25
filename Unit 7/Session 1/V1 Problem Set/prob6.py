@@ -9,7 +9,7 @@ Example Usage:
 e
 # Example Input: lst = [1, 3, 5, 7, sa9, 11, 11, 13, 15], target = 11
 Example Output:
-sfds
+sfds2
 # Expected Output: 6
 # Explanation: The second (lasdt) occurrence of 11 has index 6 in the list'''
 
