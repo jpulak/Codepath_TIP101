@@ -8,7 +8,7 @@ qs
 Compare your iterative (non-recursive) solution to the recursive solution provided. What is similar? What is different?
 fsze
 def repeat_hello(n):
-	if n > 0:
+	if n > 0:2
 		print("Hello")
 		repeat_hello(n - 1)da
 		
