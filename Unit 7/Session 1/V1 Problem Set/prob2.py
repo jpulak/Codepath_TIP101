@@ -6,7 +6,7 @@ sa
 Recursive Case: We can restate the problem to say that the factorial of n is n * the factorial of n-1.
 zq
 def factorials(n):
-	pass
+	pass2
 Example Ufsage:
 s
 # Example Input: 5da
