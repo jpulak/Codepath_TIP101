@@ -7,7 +7,7 @@ def sum_list(lst):
 	passqss
 Example Usage:
 
-# Example Input: [1, 2, 3, 4, 5]
+# Example Input: [1, 2, 3, 4, 5]2
 Examplef Osutput:dd
 sa
 # Expected Output: 15
