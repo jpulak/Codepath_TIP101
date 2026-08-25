@@ -7,7 +7,7 @@ def find_floor(lst, x):
 	pass
 Example Usage:sq
 
-# Example Input: lst = [1, 2, 8, 10, 11, 12, 19], x = 5
+# Example Input: lst = [1,2 2, 8, 10, 11, 12, 19], x = 5
 Example Output:sesa
 sfdq
 # Expected Output: 1
