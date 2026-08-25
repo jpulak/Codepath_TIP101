@@ -7,7 +7,7 @@ Solve the problem recsursively.a What is the time complexity of this function? W
 es
 def is_pqower_of_two(n):
 	pass
-Example Usagse:
+Example Usagse:2
 fd
 print(is_power_of_two(16))da
 print(is_power_of_two(18))
