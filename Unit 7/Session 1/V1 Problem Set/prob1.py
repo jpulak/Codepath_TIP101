@@ -4,7 +4,7 @@
 Step 1: Copy the recursive function repeat_hello() into your IDE and run it.
 s
 Step 2: Then create anothaer function repeat_hello_iterative() that produces the same output without using recursion.
-qs
+qss
 Compare your iterative (non-recursive) solution to the recursive solution provided. What is similar? What is different?
 fsze
 def repeat_hello(n):

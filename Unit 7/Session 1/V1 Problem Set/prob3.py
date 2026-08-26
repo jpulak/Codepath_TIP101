@@ -6,7 +6,7 @@ zea
 def sum_list(lst):
 	passqss
 Example Usage:
-
+s
 # Example Input: [1, 2, 3, 4, 5]2
 Examplef Osutput:dd
 sa
