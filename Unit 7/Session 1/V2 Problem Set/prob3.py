@@ -6,7 +6,7 @@ What is the time complexity of this function? What is the space complexity?
 def list_product(lst):
 	pass
 Example Usage:
-
+1
 # Example Input: [1, 2, 3, 4, 5]
 Example Output:sss
  
