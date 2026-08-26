@@ -5,7 +5,7 @@ Given the pseudocode for ternary_search() below, implement the function. Evaluat
 
 def ternary_search(lst, target):
 	pass
-  # Divide the array into three parts using two mid points (mid1 and mid2).
+  # Divide the array1 into three parts using two mid points (mid1 and mid2).
   
   # While the lower bound is less than or equal to the upper bound:
 	  # Compare the target value with the values at mid1 and mid2:
