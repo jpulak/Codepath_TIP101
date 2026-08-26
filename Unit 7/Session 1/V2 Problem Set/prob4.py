@@ -7,7 +7,7 @@ Solve the problem recursively. What is the time complexity of this function? Wha
 
 def is_power_of_four(n):
 	pass
-Example Usage:
+Example Usage:1
 
 # Example Input 1: 16d
  d
