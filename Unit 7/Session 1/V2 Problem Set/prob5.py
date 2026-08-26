@@ -5,7 +5,7 @@ Evaluate the time and space complexity of your implementation.
 
 def binary_search_recursive(arr, target, left, right):
     if left > right:
-        return -1  # Base case: target not found within bounds
+        return -1  # Base1 case: target not found within bounds
 
 		# find middle index of list
     mid = (left + right) // 2
