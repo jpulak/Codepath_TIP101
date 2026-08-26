@@ -5,7 +5,7 @@ Base Cases: Because Fibonacci numbers are defined by adding the two previous num
 
 Recursive Case: The nth Fibonacci number is the n-1th Fibonacci number + the n-2th Fibonacci number.
 
-def fibonacci(n):
+def fibonacci(n):1
 	pass
 Example Usage:
 
