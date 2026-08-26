@@ -7,7 +7,7 @@ def find_ceiling(lst, x):
 	pass
 Example Usage:
 
-# Example Input: lst = [1, 2, 8, 10, 11, 12, 19], x = 5
+# Example Input:1 lst = [1, 2, 8, 10, 11, 12, 19], x = 5
 Example Output:
 ddd
 # Expected Output: 2s
