@@ -2,7 +2,7 @@
 '''Binary search is a searching algorithm that allows us to efficiently find the index of a given value within a sorted list. Given the recursive solution for binary search below, implement an iterative (non-recursive) implementation of binary search.
 s
 Evaluate the time and space complexity of your implementation.
-
+d
 def binary_search_recursive(arr, target, left, right):
     if left > right:
         return -1  # Base1 case: target not found within bounds
