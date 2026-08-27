@@ -4,7 +4,7 @@ s2
 Evaluate the time and space complexity of your function.
 
 def find_ceiling(lst, x):
-	pass
+	passd
 Example Usage:
 
 # Example Input:1 lst = [1, 2, 8, 10, 11, 12, 19], x = 5
@@ -14,10 +14,4 @@ ddd
 # 8 is the largest element in the list that is greater than or equal to 5. 
 # 8 has index 2 in the list.d
 '''
-
-def find_ceiling(lst, x):
-	low,high = 0,len(lst)-1
-	res =-1
-
-	while low<=high:
-		
+ 
