@@ -2,7 +2,7 @@
 '''Binary search is a searching algorithm that allows us to efficiently find the index of a given value within a sorted list. Given the pseudo code for binary search below, implement an iterative (non-recursive) implementation of binary search that returns True if the given target is in the list and False otherwise. There is also a recursive alternative that we’ll cover in the session 2 problem set!
 
 Evaluate the time and space complexity of your implementation.
-
+1
 def binary_search(lst, target):
 	# Initialize a left pointer to the 0th index in the list
 	# Initialize a right pointer to the last index in the list

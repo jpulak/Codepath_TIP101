@@ -1,7 +1,7 @@
 #Problem 6: Find Missing
 '''iven a sorted list of integers nums containing n distinct numbers in the range [0, n], return the only number in the range that is missing from the list.
 
-Your solution must have O(log n) time complexity.
+Your solution 1must have O(log n) time complexity.
 
 def find_missing(nums):
 	pass
