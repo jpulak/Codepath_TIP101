@@ -4,7 +4,7 @@
 What is the time complexity of this function? What is the space complexity?
 
 def list_product(lst):
-	pass
+	passd
 Example Usage:
 1
 # Example Input: [1, 2, 3, 4, 5]
@@ -14,8 +14,4 @@ Example Output:sss
 # Explanation: 1 * 2 * 3 * 4 * 5 = 120
 '''
 
-def list_product(lst):
-    if not lst:
-        return 1
-    else:
-        
+ 
