@@ -2,7 +2,7 @@
 '''Given a non-negative integer n, write a recursive function count_sevens() that returns the count of the occurrences of 7 as a digit.
 
 Evaluate the time and space complexity of your solution.
-
+1
 def count_sevens(n):
 	pass
 Example Usage:
