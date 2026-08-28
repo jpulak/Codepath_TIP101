@@ -1,6 +1,6 @@
 #Problem 7: Square Root
 '''Given a positive number, return the square root of it. If the number is not a perfect square, return the floor of its square root.
-1
+1a
 def sqrt(x):
 	pass
 Example Usage:
