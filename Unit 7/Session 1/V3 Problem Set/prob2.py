@@ -4,7 +4,7 @@
 Base Case: An empty string should have size 0.
 1
 Recursive Case: We can restate the problem to say that the string length is 1 + the length of s[1:].
-
+a
 def string_length(s):
 	pass
 Example Usage:
