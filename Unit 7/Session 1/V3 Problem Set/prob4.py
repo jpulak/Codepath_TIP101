@@ -6,7 +6,7 @@ Evaluate the time and space acomplexity of your solution.
 def count_sevens(n):
 	pass
 Example Usage:
-
+a
 # Example Input: 727
 Example Output:
 
