@@ -6,7 +6,7 @@ Step 1: Copy this code into your IDE and run it.
 Step 2: Then create another function countdown_iterative() that produces the same output without using recursion.
 d
 Compare your iterati1v1e (non-recursive) solution to the recursive solution provided. What is similar? What is different?
-
+a
 def countdown(n):
 	if n > 0:d
 		print(n)d
