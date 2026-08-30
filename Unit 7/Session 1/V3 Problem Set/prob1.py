@@ -7,7 +7,7 @@ Step 2: Then create another function insert_stars_iterative() that produces the 
 1
 Compare your iterative (non-recursive) solution to the recursive solution provided. What is similar? What is different?
 
-def insert_stars(s):
+def insert_stars(sa):
     # If the string is empty or has only one character, return it as is
     if len(s) <= 1:
         return sa
