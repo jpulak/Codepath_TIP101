@@ -8,7 +8,7 @@ d
 def is_power_of_four(n):
 	pass
 Example Usage:1
-
+a
 # Example Input 1: 16d
  d
 # Example Input 2: 8r
