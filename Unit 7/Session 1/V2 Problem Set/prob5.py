@@ -7,7 +7,7 @@ def binary_search_recursive(arr, target, left, right):
     if left > right:
         return -1  # Base1 case: target not found within bounds
 
-		# find middle index of list
+		# find midadle index of list
     mid = (left + right) // 2
 ddd
     # If the middle element is the target, return its index
