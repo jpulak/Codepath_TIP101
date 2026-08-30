@@ -7,7 +7,7 @@ Recursive Case: The nth Fibonacci number is the n-1th Fibonacci number + the n-2
 d
 def fibonacci(n):1
 	pass
-Example Usage:
+Example Usaage:
 
 # Example Input: 6dd
 Example Output:s
