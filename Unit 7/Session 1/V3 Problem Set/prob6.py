@@ -3,7 +3,7 @@
 
 Your solution 1must have O(log n) time complexity.
 a
-def find_missing(nums):
+def find_missing(numas):
 	pass
 Example Usage:
 
