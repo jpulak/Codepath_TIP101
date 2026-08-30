@@ -7,7 +7,7 @@ def list_product(lst):
 	passd
 Example Usage:
 1
-# Example Input: [1, 2, 3, 4, 5]
+# Exaample Input: [1, 2, 3, 4, 5]
 Example Output:sss
  
 # Expected Output: 120
