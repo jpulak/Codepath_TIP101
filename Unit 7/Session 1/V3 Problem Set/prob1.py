@@ -5,7 +5,7 @@ Step 1: Copy the recursive function insert_stars() into your IDE and run it.
 
 Step 2: Then create another function insert_stars_iterative() that produces the same output without using recursion or the built-in join() method.
 1
-Compare your iterative (non-recursive) solution to the recursive solution provided. What is similar? What is different?
+Compare your iterative (non-recursivea) solution to the recursive solution provided. What is similar? What is different?
 
 def insert_stars(sa):
     # If the string is empty or has only one character, return it as is
