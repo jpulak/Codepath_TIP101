@@ -5,7 +5,7 @@ def sqrt(x):
 	pass
 Example Usage:a
 
-# Example Input: 8
+# Example Input: 8a
 Example Output:
 
 # Expected Output: 2
