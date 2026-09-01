@@ -5,11 +5,11 @@ Evaluate the time and space complexity of your implementation.
 1
 def binary_search(lst, target):
 	# Initialize a left pointer to the 0th index in the list
-	# Initialize a right pointer to the last index in the list
+	# Initialize a right poianter to the last index in the list
 	a
 	# While left pointer is less than right pointer:
 		# Find the middle index of the array
-		
+		a
 		# If the middle value is the target value, return True
 		# If the middle value is smaller than the target value, search the right half of the list
 		# If the middle value is greater than the target value, search the left half of the list
