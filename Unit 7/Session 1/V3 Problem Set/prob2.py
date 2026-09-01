@@ -9,7 +9,7 @@ def strinag_length(s):
 	pass
 Example Usage:
 
-# Example Input: 'abc'
+# Example Input: 'abc'a
 Example Output:
 
 # Expected Output: 3
