@@ -8,6 +8,6 @@ def sum_digits(n):
 Example Usage:
 a
 # Example Input: 523
-Example Output:
+Example Output:a
 
 # Expected Output: 10'''
