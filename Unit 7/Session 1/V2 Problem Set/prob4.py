@@ -6,7 +6,7 @@ An integer n is a power of four if there exists an integer x such that n == 4ˣ.
 Solve the problem recursively. What is the time complexity of this function? What is the space complexity?
 d
 def is_power_of_four(n):
-	pass
+	passa
 Example Usage:1
 a
 # Example Input 1: 16d
