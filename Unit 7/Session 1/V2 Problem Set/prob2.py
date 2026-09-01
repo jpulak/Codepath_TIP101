@@ -6,7 +6,7 @@ Base Cases: Because Fibonacci numbers are defined by adding the two previous num
 Recursive Case: The nth Fibonacci number is the n-1th Fibonacci number + the n-2th Fibonacci number.
 d
 def fibonacci(n):1
-	pass
+	passa
 Example Usaage:
 
 # Example Input: 6dd
