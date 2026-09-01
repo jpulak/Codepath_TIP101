@@ -4,7 +4,7 @@ s2
 Given the pseudocode for ternary_search() below, implement the function. Evaluate the time and space complexity of your solution
 d
 def ternary_search(lst, target):
-	pass
+	passa
   # Divide the array1 into three parts using two mid points (mid1 and mid2).
   a
   # While the lower bound is less than or equal to the upper bound:
